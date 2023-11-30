@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    position:sticky;
+    top:0px;
+    z-index:1 ;
+    
+}
+    
+nav>a,nav>div>a{
+    color: white;
+    text-decoration: none;
+    margin-inline: 10px;
+}
+nav>div>a:hover{
+    color:blue;
+}
